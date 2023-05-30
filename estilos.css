@@ -20,3 +20,21 @@
   height : 100%;
   width : 100%
 }
+
+.btn-main{
+  background-color: #E4FF09;
+}
+
+.info-container {
+  border: 1px solid black; /* Define el borde del contenedor */
+  padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
+  max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.foot{
+  border: 1px solid black; /* Define el borde del contenedor */
+  padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
+  max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
