@@ -1,0 +1,22 @@
+.collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Cambia 200px al valor deseado para definir el ancho mínimo de cada elemento */
+  grid-auto-rows: 1fr; /* Ajusta la altura automática en función del ancho */
+  grid-gap: 5rem;
+  justify-content: center;
+  background-color: #161114;
+  border: 1px solid black; /* Define el borde del contenedor */
+  padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
+  max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.collection > * {
+  aspect-ratio: 1/1; /* Establece la relación de aspecto como 1:1 */
+}
+
+.project-box {
+  background-color: #E4FF09;
+  height : 100%;
+  width : 100%
+}
