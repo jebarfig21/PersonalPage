@@ -4,7 +4,7 @@
   grid-auto-rows: 1fr; /* Ajusta la altura automática en función del ancho */
   grid-gap: 5rem;
   justify-content: center;
-  background-color: #161114;
+  background-color: #f7ffe321;
   border: 1px solid black; /* Define el borde del contenedor */
   padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
   max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
@@ -17,10 +17,36 @@
 
 .project-box {
   background-color: #E4FF09;
-  height : 100%;
-  width : 100%
+  position: relative;
+  width: 200px; /* ajusta el ancho según tus necesidades */
+  height: 200px; /* ajusta la altura según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.project-box img {
+  max-width: 65%;
+  max-height: 65%;
 }
 
+.main {
+  background-image: url('background.png'); /* ruta de la imagen con detalles de puntos y líneas */
+  background-repeat: repeat; /* repetir la imagen en el fondo */
+  color : #FFFFFF;
+}
+
+
+.project-box button {
+  background-color: #161114;; /* color de fondo del botón */
+  color: #E4FF09; /* color del texto del botón (mismo color del fondo de la página) */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+
+}
 .btn-main{
   background-color: #E4FF09;
 }
@@ -37,4 +63,8 @@
   padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
   max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
   margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.jumbotron{
+  background-image: url('background.png'); /* ruta de la imagen con detalles de puntos y líneas */
+
 }
