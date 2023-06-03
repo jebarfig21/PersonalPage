@@ -1,14 +1,14 @@
 .collection {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Cambia 200px al valor deseado para definir el ancho mínimo de cada elemento */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 1fr; /* Ajusta la altura automática en función del ancho */
   grid-gap: 5rem;
   justify-content: center;
   background-color: #f7ffe321;
-  border: 1px solid black; /* Define el borde del contenedor */
-  padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
-  max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  border: 1px solid black;
+  padding: 2vw;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
 .collection > * {
@@ -32,7 +32,7 @@
 }
 
 .main {
-  background-image: url('background.png'); /* ruta de la imagen con detalles de puntos y líneas */
+  background-image: url('img/background.png'); /* ruta de la imagen con detalles de puntos y líneas */
   background-repeat: repeat; /* repetir la imagen en el fondo */
   color : #FFFFFF;
 }
@@ -40,7 +40,7 @@
 
 .project-box button {
   background-color: #161114;; /* color de fondo del botón */
-  color: #E4FF09; /* color del texto del botón (mismo color del fondo de la página) */
+  color: #E4FF09;
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
@@ -52,19 +52,19 @@
 }
 
 .info-container {
-  border: 1px solid black; /* Define el borde del contenedor */
-  padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
-  max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
+  border: 1px solid black;
+  padding: 2vw;
+  max-width: 90vw;
   margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
 .foot{
-  border: 1px solid black; /* Define el borde del contenedor */
-  padding: 2vw; /* Agrega un espacio interno para evitar que los elementos estén pegados al borde */
-  max-width: 90vw; /* Ajusta el ancho máximo del contenedor según tus necesidades */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  border: 1px solid black;
+  padding: 2vw;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 .jumbotron{
-  background-image: url('background.png'); /* ruta de la imagen con detalles de puntos y líneas */
+  background-image: url('img/background.png'); /* ruta de la imagen*/
 
 }
